@@ -3,6 +3,8 @@
 # Exit on any error
 set -e
 
+export PATH=$PATH:/bin:/sbin:/usr/bin:/usr/sbin:/opt/puppetlabs/bin:/opt/puppetlabs/puppet/bin
+
 usage() {
     echo
     echo "Usage: prepare.sh -b basedir [-l] [-m]"
